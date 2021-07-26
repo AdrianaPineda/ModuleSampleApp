@@ -7,6 +7,7 @@ target 'TruoraModuleSampleApp' do
 
     # only core
     pod "iOSCoreModule/iOSCoreOnlyModule"
+    #pod "iOSCoreModule/iOSCommonModule" only used if common is not @_implementationOnly
 
     # only doc
     #pod "iOSCoreModule/iOSDocModule"

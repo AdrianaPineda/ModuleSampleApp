@@ -1,5 +1,5 @@
 PODS:
-  - iOSCoreModule/iOSCoreOnlyModule (0.12.1)
+  - iOSCoreModule/iOSCoreOnlyModule (0.14.0)
 
 DEPENDENCIES:
   - iOSCoreModule/iOSCoreOnlyModule
@@ -9,7 +9,7 @@ SPEC REPOS:
     - iOSCoreModule
 
 SPEC CHECKSUMS:
-  iOSCoreModule: 40dcddc382961709ed740570615b63321fe316fe
+  iOSCoreModule: b21fa946e13922873de185e02a9a220243033902
 
 PODFILE CHECKSUM: a1a5394bcc70396440fa513ffaa8031d2ba9b686
 

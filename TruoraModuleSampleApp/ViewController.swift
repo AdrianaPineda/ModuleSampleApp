@@ -7,6 +7,7 @@
 
 import UIKit
 import iOSCoreModule
+import iOSDocModule
 
 class ViewController: UIViewController {
 
@@ -17,6 +18,10 @@ class ViewController: UIViewController {
         print(test.testDoc())
         print(test.testCommonFromCore())
         print("finish")
+
+        let docTest = Doc()
+        print(docTest.test())
+        print(docTest.testCommon())
     }
 
 
