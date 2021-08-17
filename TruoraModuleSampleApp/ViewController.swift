@@ -6,13 +6,14 @@
 //
 
 import UIKit
-import iOSCoreModule
+import iOSCoreOnlyModule
 import iOSDocModule
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
         let test = Core()
         print(test.testDoc())
@@ -21,7 +22,8 @@ class ViewController: UIViewController {
 
         let docTest = Doc()
         print(docTest.test())
-        print(docTest.testCommon())
+        let brandTheme = BrandTheme(primaryColor: nil, secondaryColor: nil, fontColor: nil)
+        print(docTest.testCommon(theme: brandTheme))
     }
 
 

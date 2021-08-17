@@ -3,13 +3,14 @@ use_frameworks!
 
 target 'TruoraModuleSampleApp' do
     # both core and doc
-    #pod "iOSCoreModule"
+#    pod "iOSCoreModule"
 
+#    pod "JumioMobileSDK/Netverify"
     # only core
-    pod "iOSCoreModule/iOSCoreOnlyModule"
-    #pod "iOSCoreModule/iOSCommonModule" only used if common is not @_implementationOnly
+    pod "iOSCoreModule/iOSCoreOnlyModule", "0.14.17"
+#    pod "iOSCoreModule/iOSCommonModule", "0.14.15"
 
     # only doc
-    #pod "iOSCoreModule/iOSDocModule"
+    pod "iOSCoreModule/iOSDocModule", "0.14.17"
 end
 

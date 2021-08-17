@@ -149,5 +149,7 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/iOSCoreModule/Products/iOSCoreModule.xcframework" "iOSCoreModule" "framework" "ios-arm64_x86_64-simulator" "ios-arm64"
+install_xcframework "${PODS_ROOT}/iOSCoreModule/Products/iOSCoreOnlyModule.xcframework" "iOSCoreOnlyModule" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/iOSCoreModule/Products/iOSCommonModule.xcframework" "iOSCommonModule" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/iOSCoreModule/Products/iOSDocModule.xcframework" "iOSDocModule" "framework" "ios-arm64_x86_64-simulator" "ios-arm64"
 

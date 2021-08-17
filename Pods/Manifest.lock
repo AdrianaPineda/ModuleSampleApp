@@ -1,16 +1,18 @@
 PODS:
-  - iOSCoreModule/iOSCoreOnlyModule (0.14.0)
+  - iOSCoreModule/iOSCoreOnlyModule (0.14.17)
+  - iOSCoreModule/iOSDocModule (0.14.17)
 
 DEPENDENCIES:
-  - iOSCoreModule/iOSCoreOnlyModule
+  - iOSCoreModule/iOSCoreOnlyModule (= 0.14.17)
+  - iOSCoreModule/iOSDocModule (= 0.14.17)
 
 SPEC REPOS:
   trunk:
     - iOSCoreModule
 
 SPEC CHECKSUMS:
-  iOSCoreModule: b21fa946e13922873de185e02a9a220243033902
+  iOSCoreModule: fed05b62221a2c80aac1a579fbd43292d40e889b
 
-PODFILE CHECKSUM: a1a5394bcc70396440fa513ffaa8031d2ba9b686
+PODFILE CHECKSUM: d01af64bbc0652148e14d0acfee98ddeba862004
 
 COCOAPODS: 1.10.1

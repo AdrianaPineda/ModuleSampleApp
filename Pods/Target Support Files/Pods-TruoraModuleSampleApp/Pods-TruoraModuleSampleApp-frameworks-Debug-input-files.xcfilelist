@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-TruoraModuleSampleApp/Pods-TruoraModuleSampleApp-frameworks.sh
-${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCoreModule/iOSCoreModule.framework/iOSCoreModule
+${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCoreOnlyModule/iOSCoreOnlyModule.framework/iOSCoreOnlyModule
+${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCommonModule/iOSCommonModule.framework/iOSCommonModule
+${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSDocModule/iOSDocModule.framework/iOSDocModule

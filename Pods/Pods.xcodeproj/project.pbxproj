@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F541E0436B454B966520E95B9F72F961 /* PBXContainerItemProxy */ = {
+		CA76B40A6E185D565813F12898AD8728 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,18 +37,20 @@
 
 /* Begin PBXFileReference section */
 		0099A75AE0716C6F7AD954801D902377 /* Pods-TruoraModuleSampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TruoraModuleSampleApp-Info.plist"; sourceTree = "<group>"; };
-		1F82C25571306BF9D8B9859AE613C004 /* iOSCoreModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSCoreModule.release.xcconfig; sourceTree = "<group>"; };
-		2F57A60EE7BB9E03544F03BD6415FE13 /* iOSCoreModule.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSCoreModule.xcframework; path = Products/iOSCoreModule.xcframework; sourceTree = "<group>"; };
+		0BC98EBBE4B3A5A9AF09D41363C3C7EC /* iOSCommonModule.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSCommonModule.xcframework; path = Products/iOSCommonModule.xcframework; sourceTree = "<group>"; };
+		28750847B911E7B08B5255B0D9007933 /* iOSCoreModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSCoreModule.debug.xcconfig; sourceTree = "<group>"; };
 		3E07173B0ADD622420374ABCB7EBBF2E /* Pods-TruoraModuleSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruoraModuleSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		4329A4877590FC4DD77BF65AD88B96BA /* iOSDocModule.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSDocModule.xcframework; path = Products/iOSDocModule.xcframework; sourceTree = "<group>"; };
 		47C6EEF600A29631D38185AC15305CD7 /* Pods-TruoraModuleSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TruoraModuleSampleApp.modulemap"; sourceTree = "<group>"; };
 		4D02223B6096094B25F46DE1B7E33D9F /* Pods-TruoraModuleSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TruoraModuleSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71406D66911E85B442CE994986995726 /* iOSCoreModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSCoreModule.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9495EFA7E1C0FF3E0A0E2CB516C9F189 /* Pods-TruoraModuleSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TruoraModuleSampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		96F0234529D5A2FA25E04D0C92CD9221 /* iOSCoreOnlyModule.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSCoreOnlyModule.xcframework; path = Products/iOSCoreOnlyModule.xcframework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3C56EFE7640DEF10476A3FA51E4362D /* iOSCoreModule-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iOSCoreModule-xcframeworks.sh"; sourceTree = "<group>"; };
+		B25EB632D4BA47CE3AB8017A2B875134 /* iOSCoreModule-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iOSCoreModule-xcframeworks.sh"; sourceTree = "<group>"; };
 		B5EA1C74DE74185C547AF5B798AE6DA7 /* Pods-TruoraModuleSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TruoraModuleSampleApp-dummy.m"; sourceTree = "<group>"; };
 		BCD9CCD325A7BE2AD27757808E253642 /* Pods_TruoraModuleSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TruoraModuleSampleApp.framework; path = "Pods-TruoraModuleSampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66ED2D532CCD70186C48C760EDF0C77 /* iOSCoreModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSCoreModule.release.xcconfig; sourceTree = "<group>"; };
 		CC19BE22942F1D6B28F8D238511BAE72 /* Pods-TruoraModuleSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TruoraModuleSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7876B9EE1D3FC68E7DA208CE3C76EF6 /* Pods-TruoraModuleSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TruoraModuleSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D985016C50B099AB7DEC77F37E6BDC7E /* Pods-TruoraModuleSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TruoraModuleSampleApp-umbrella.h"; sourceTree = "<group>"; };
@@ -66,30 +68,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		003D1A4484F4D3955A774AC1A4B3ED0A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				20E0D18D4B0F4C7F407429303E5EC895 /* iOSCoreModule */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		17C5C5D84DCCCA9EB827B38D2F553C25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				BCD9CCD325A7BE2AD27757808E253642 /* Pods_TruoraModuleSampleApp.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		20E0D18D4B0F4C7F407429303E5EC895 /* iOSCoreModule */ = {
-			isa = PBXGroup;
-			children = (
-				9D0B07DF005920A6D99BEDAB92906FD8 /* iOSCoreOnlyModule */,
-				B4543884F9E283E6F309254A43490476 /* Support Files */,
-			);
-			name = iOSCoreModule;
-			path = iOSCoreModule;
 			sourceTree = "<group>";
 		};
 		34C16BA1FE28CBF7E7DE39816252E76A /* Targets Support Files */ = {
@@ -117,6 +101,22 @@
 			path = "Target Support Files/Pods-TruoraModuleSampleApp";
 			sourceTree = "<group>";
 		};
+		36777F7BDA46335FA7A7565AFE7B2687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2B85E65ABC7245E673E17C67974983A /* iOSCoreModule */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		392C8E87E3C3358EB9B47CD11EDA4029 /* iOSCoreOnlyModule */ = {
+			isa = PBXGroup;
+			children = (
+				791132F2FF211F0C66CA8FA620846837 /* Frameworks */,
+			);
+			name = iOSCoreOnlyModule;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,31 +125,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6853587E134C112B0E544BDD61383242 /* Frameworks */ = {
+		6049FA54C2C6D770F9BB7C411B37B495 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F57A60EE7BB9E03544F03BD6415FE13 /* iOSCoreModule.xcframework */,
+				4329A4877590FC4DD77BF65AD88B96BA /* iOSDocModule.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9D0B07DF005920A6D99BEDAB92906FD8 /* iOSCoreOnlyModule */ = {
+		791132F2FF211F0C66CA8FA620846837 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6853587E134C112B0E544BDD61383242 /* Frameworks */,
+				0BC98EBBE4B3A5A9AF09D41363C3C7EC /* iOSCommonModule.xcframework */,
+				96F0234529D5A2FA25E04D0C92CD9221 /* iOSCoreOnlyModule.xcframework */,
 			);
-			name = iOSCoreOnlyModule;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B4543884F9E283E6F309254A43490476 /* Support Files */ = {
+		AD9BFCF85E1A4679105C741EC5E7F4B0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3C56EFE7640DEF10476A3FA51E4362D /* iOSCoreModule-xcframeworks.sh */,
-				71406D66911E85B442CE994986995726 /* iOSCoreModule.debug.xcconfig */,
-				1F82C25571306BF9D8B9859AE613C004 /* iOSCoreModule.release.xcconfig */,
+				B25EB632D4BA47CE3AB8017A2B875134 /* iOSCoreModule-xcframeworks.sh */,
+				28750847B911E7B08B5255B0D9007933 /* iOSCoreModule.debug.xcconfig */,
+				C66ED2D532CCD70186C48C760EDF0C77 /* iOSCoreModule.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/iOSCoreModule";
+			sourceTree = "<group>";
+		};
+		B44BAF939E64B3E2C9C12067202FBBA4 /* iOSDocModule */ = {
+			isa = PBXGroup;
+			children = (
+				6049FA54C2C6D770F9BB7C411B37B495 /* Frameworks */,
+			);
+			name = iOSDocModule;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -157,7 +166,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				003D1A4484F4D3955A774AC1A4B3ED0A /* Pods */,
+				36777F7BDA46335FA7A7565AFE7B2687 /* Pods */,
 				17C5C5D84DCCCA9EB827B38D2F553C25 /* Products */,
 				34C16BA1FE28CBF7E7DE39816252E76A /* Targets Support Files */,
 			);
@@ -169,6 +178,17 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B85E65ABC7245E673E17C67974983A /* iOSCoreModule */ = {
+			isa = PBXGroup;
+			children = (
+				392C8E87E3C3358EB9B47CD11EDA4029 /* iOSCoreOnlyModule */,
+				B44BAF939E64B3E2C9C12067202FBBA4 /* iOSDocModule */,
+				AD9BFCF85E1A4679105C741EC5E7F4B0 /* Support Files */,
+			);
+			name = iOSCoreModule;
+			path = iOSCoreModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +217,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5EEDFFAC359AF4750A4A3019EA533884 /* PBXTargetDependency */,
+				7627187DBCF418034D5061589BC469C4 /* PBXTargetDependency */,
 			);
 			name = "Pods-TruoraModuleSampleApp";
 			productName = "Pods-TruoraModuleSampleApp";
@@ -274,11 +294,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5EEDFFAC359AF4750A4A3019EA533884 /* PBXTargetDependency */ = {
+		7627187DBCF418034D5061589BC469C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSCoreModule;
 			target = 05D4138F7F1B927A63E6E4D21A0022EB /* iOSCoreModule */;
-			targetProxy = F541E0436B454B966520E95B9F72F961 /* PBXContainerItemProxy */;
+			targetProxy = CA76B40A6E185D565813F12898AD8728 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -351,7 +371,7 @@
 		};
 		2DBBBABC3C055F5B60F4F830CA562F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71406D66911E85B442CE994986995726 /* iOSCoreModule.debug.xcconfig */;
+			baseConfigurationReference = 28750847B911E7B08B5255B0D9007933 /* iOSCoreModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -368,7 +388,7 @@
 		};
 		3B7E49441E850D23956AA65988A99D94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F82C25571306BF9D8B9859AE613C004 /* iOSCoreModule.release.xcconfig */;
+			baseConfigurationReference = C66ED2D532CCD70186C48C760EDF0C77 /* iOSCoreModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

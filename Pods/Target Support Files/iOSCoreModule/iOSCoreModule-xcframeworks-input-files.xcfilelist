@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/iOSCoreModule/iOSCoreModule-xcframeworks.sh
-${PODS_ROOT}/iOSCoreModule/Products/iOSCoreModule.xcframework
+${PODS_ROOT}/iOSCoreModule/Products/iOSCoreOnlyModule.xcframework
+${PODS_ROOT}/iOSCoreModule/Products/iOSCommonModule.xcframework
+${PODS_ROOT}/iOSCoreModule/Products/iOSDocModule.xcframework

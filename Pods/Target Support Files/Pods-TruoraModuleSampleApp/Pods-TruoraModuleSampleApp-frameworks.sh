@@ -175,10 +175,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCoreModule/iOSCoreModule.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCoreOnlyModule/iOSCoreOnlyModule.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCommonModule/iOSCommonModule.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSDocModule/iOSDocModule.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCoreModule/iOSCoreModule.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCoreOnlyModule/iOSCoreOnlyModule.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSCommonModule/iOSCommonModule.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iOSDocModule/iOSDocModule.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
